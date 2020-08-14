@@ -73,3 +73,15 @@ body.my-login-page {
 		padding: 15px;
 	}
 }
+
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+}
+
+.scrollspySite{
+
+    position: relative;
+    overflow: auto;
+    height: 355px;
+}

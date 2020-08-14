@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <link href="public/css/bootstrap.min.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="public/css/style.css"/>
+    <link rel="stylesheet" href="node_modules\@fortawesome\fontawesome-free\css\all.min.css"/> 
+
+    <title>Login</title>
+</head>
+
+<body class="my-login-page">
+	<section class="h-100">
+		<div class="container h-100">
+			<div class="row justify-content-md-center align-items-center h-100">
+				<div class="card-wrapper">
+					<div class="brand">
+						<img src="img/logo.jpg" alt="logo">
+					</div>
+					<div class="card fat">
+						<div class="card-body">
+							<h4 class="card-title">Resetar Senha</h4>
+							<form method="POST" class="my-login-validation" novalidate="">
+
+                                <div class="form-group">
+                                    <label for="new-password">Nova Senha</label>
+                                    <input id="new-password" type="password" class="form-control" name="password" required data-eye>
+                                    <div class="invalid-feedback">
+                                        A senha é necessária 
+                                    </div>
+                                    <div class="form-text text-muted"> 
+                                        Crie uma senha forte
+                                    </div>
+                                </div>
+
+                                <div class="form-group m-0">
+                                    <button type="submit" class="btn btn-primary btn-block">
+                                        Resetar Senha
+                                    </button>
+                                </div>
+
+							</form>
+						</div>
+					</div>
+					<div class="footer">
+						Copyright &copy; 2020 &mdash; Meu portifólio
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="public/js/jquery.js"></script>
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    
+
+</body>
+
+</html>
